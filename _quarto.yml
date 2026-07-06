@@ -1,0 +1,35 @@
+project:
+  type: book
+
+book:
+  title: "Cytopia Proceedings"
+  author: "CiuP"
+  date: "7/6/2026"
+  downloads: [pdf, epub]
+  chapters:
+    - index.qmd
+    - general_intro.qmd
+    - part: technology.qmd
+      chapters: 
+        - example.qmd
+        - example_4.qmd
+    - part: gene_tonic.qmd
+      chapters: 
+        - example_2.qmd
+    - part: diplocite.qmd
+      chapters: 
+        - example_3.qmd
+    - general_conclusion.qmd
+    - references.qmd
+
+bibliography: _sub/cytopia/bib/ref.bib
+
+format:
+  html:
+    theme:
+      - cosmo
+      - brand
+  pdf:
+    documentclass: scrreprt
+  epub:
+    cover-image: cover.png

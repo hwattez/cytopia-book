@@ -1,0 +1,10 @@
+---
+title: "Another article"
+abstract: TBA
+author: 
+    - name: Someone
+date: "2026-05-13"
+categories: [something]
+---
+
+## Another section
