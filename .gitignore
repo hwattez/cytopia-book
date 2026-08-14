@@ -2,4 +2,3 @@
 **/*.quarto_ipynb
 .DS_Store
 _book
-_sub

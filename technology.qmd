@@ -1,3 +1,9 @@
-# Cycle: Technology
+---
+format:
+  pdf:
+    toc: true
+---
+
+# Cycle Technology, *proposed by Cytopia*
 
 In summary, this book has no content whatsoever.
