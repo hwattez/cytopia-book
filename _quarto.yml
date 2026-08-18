@@ -8,27 +8,29 @@ book:
   downloads: [pdf, epub]
   chapters:
     - index.qmd
-    - general_intro.qmd
+    - comitee.qmd
     - part: technology.qmd
       chapters: 
         - _sub/cytopia/cycles/2026/tech/conferences/tech_1/topics/user_sovereignty/_article_lang/en.qmd
+        - _sub/cytopia/cycles/2026/tech/conferences/tech_1/topics/re-identification/_article_lang/en.qmd
         - _sub/cytopia/cycles/2026/tech/conferences/tech_1/topics/sudoku_kills_modern_ai/_article_lang/en.qmd
-        - _sub/cytopia/cycles/2026/tech/conferences/tech_3/topics/philosophy/_article_lang/en.qmd
+        - _sub/cytopia/cycles/2026/tech/conferences/tech_1/topics/ai_safety/_article_lang/en.qmd
+        - _sub/cytopia/cycles/2026/tech/conferences/tech_2/topics/autobiography/_article_lang/en.qmd
+        - _sub/cytopia/cycles/2026/tech/conferences/tech_2/topics/ocean/_article_lang/en.qmd
         - _sub/cytopia/cycles/2026/tech/conferences/tech_2/topics/environment/_article_lang/en.qmd
         - _sub/cytopia/cycles/2026/tech/conferences/tech_3/topics/cinema/_article_lang/en.qmd
-        - _sub/cytopia/cycles/2026/tech/conferences/tech_1/topics/re-identification/_article_lang/en.qmd
-        - _sub/cytopia/cycles/2026/tech/conferences/tech_1/topics/ai_safety/_article_lang/en.qmd
+        - _sub/cytopia/cycles/2026/tech/conferences/tech_3/topics/philosophy/_article_lang/en.qmd
     - part: gene_tonic.qmd
       chapters: 
+        - _sub/cytopia/cycles/2026/bio/conferences/bio-1/topics/learning_gliding_mammals/_article_lang/en.qmd
         - _sub/cytopia/cycles/2026/bio/conferences/bio-1/topics/immune_tolerance/_article_lang/en.qmd
         - _sub/cytopia/cycles/2026/bio/conferences/bio-1/topics/microbiome/_article_lang/en.qmd
-    - part: diplocite.qmd
-      chapters: 
-        - example_3.qmd
-    - general_conclusion.qmd
-    - authors.qmd
-    - _sub/cytopia/about/berivan_biral/index.qmd
+    # - part: diplocite.qmd
+    #   chapters: 
+    #     - example_3.qmd
     - references.qmd
+  appendices:
+    - authors.qmd
 
 bibliography: _sub/cytopia/bib/ref.bib
 
@@ -39,5 +41,8 @@ format:
       - brand
   pdf:
     documentclass: scrbook
-    papersize: a5
+    papersize: a3
     toc-depth: 1
+    include-in-header:
+      text: |
+        \usepackage{qrcode}

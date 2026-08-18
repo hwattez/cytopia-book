@@ -1,3 +1,173 @@
+---
+output: "asis"
+execute:
+  echo: false
+---
+
 ## Authors
 
-### Moi {#sec-me}
+```{python}
+from pathlib import Path
+import yaml
+import qrcode
+from IPython.display import display
+
+
+DIRECTORY = Path(
+    "/Users/wattez/Documents/pro/cytopia-book/_sub/cytopia/about"
+)
+
+
+def extract_front_matter(path: Path):
+    """Extrait le front matter YAML d'un fichier QMD."""
+
+    content = path.read_text(encoding="utf-8")
+    lines = content.splitlines()
+
+    if not lines or lines[0].strip() != "---":
+        return {}
+
+    end = next(
+        (
+            i
+            for i, line in enumerate(lines[1:], start=1)
+            if line.strip() == "---"
+        ),
+        None,
+    )
+
+    if end is None:
+        return {}
+
+    yaml_content = "\n".join(lines[1:end])
+
+    try:
+        return yaml.safe_load(yaml_content) or {}
+    except yaml.YAMLError as e:
+        print(f"Erreur YAML dans {path}: {e}")
+        return {}
+
+
+def format_categories(categories):
+    if not categories:
+        return ""
+
+    categories.sort()
+
+    return " · ".join(cat.title() for cat in categories)
+
+
+def format_links(links):
+    if not links:
+        return ""
+
+    result = []
+
+    for link in links:
+        text = link.get("text").title()
+        href = link.get("href")
+
+        if text and href:
+            result.append(f"[{text}]({href})")
+
+    result.sort()
+
+    return " · ".join(result)
+
+
+def format_affiliation(affiliation):
+    if not affiliation:
+        return ""
+
+    if isinstance(affiliation, list):
+        return ", ".join(str(item) for item in affiliation)
+
+    if isinstance(affiliation, dict):
+        values = []
+
+        if affiliation.get("institution"):
+            values.append(affiliation["institution"])
+
+        if affiliation.get("laboratory"):
+            values.append(affiliation["laboratory"])
+
+        if affiliation.get("country"):
+            values.append(affiliation["country"])
+
+        return ", ".join(values)
+
+    return str(affiliation)
+
+
+def format_author(author_slug, metadata):
+    title = metadata.get("title", "Unknown author")
+    bio = metadata.get("bio", "").strip()
+    categories = format_categories(metadata.get("categories"))
+    affiliation = format_affiliation(metadata.get("affiliation"))
+
+    links = format_links(
+        metadata.get("about", {}).get("links", [])
+    )
+
+    output = []
+
+    output.append("")
+    output.append(f"## {title} {{#sec-{author_slug}}}")
+    output.append("")
+    output.append(f"\\qrcode[height=2cm]{{https://www.cytopia.fr/about/{author_slug}}}")
+    output.append("")
+
+    if affiliation:
+        output.append(f"`Affiliation:` {affiliation}")
+        output.append("")
+
+    if categories:
+        output.append(f"`Contribution:` {categories}")
+        output.append("")
+
+    if bio:
+        output.append("`Biography:`")
+        output.append(bio)
+        output.append("")
+
+    if links:
+        output.append(f"`Links:` {links}")
+        output.append("")
+
+    return "\n".join(output)
+
+
+def scan_qmd_directory(directory):
+    documents = []
+
+    for path in directory.rglob("index.qmd"):
+        metadata = extract_front_matter(path)
+
+        if metadata and metadata.get("title") != "About":
+            metadata['name'] = metadata['title'].split(' ')[-1]
+            documents.append({
+                "path": path.relative_to(directory),
+                "metadata": metadata,
+            })
+
+    documents.sort(key=lambda x: x['metadata']['name'])
+
+    return documents
+
+
+def generate_markdown(documents):
+    sections = []
+
+    for document in documents:
+        sections.append(
+            format_author(document["path"].parent.name, document["metadata"])
+        )
+
+    return "\n\n".join(sections)
+
+documents = scan_qmd_directory(DIRECTORY)
+
+markdown = generate_markdown(documents)
+
+print(markdown)
+```
