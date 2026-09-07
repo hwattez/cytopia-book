@@ -41,7 +41,7 @@ format:
       - brand
   pdf:
     documentclass: scrbook
-    papersize: a3
+    papersize: a5
     toc-depth: 1
     include-in-header:
       text: |

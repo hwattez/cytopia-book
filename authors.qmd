@@ -4,7 +4,7 @@ execute:
   echo: false
 ---
 
-## Authors
+## Contributors
 
 ```{python}
 from pathlib import Path
