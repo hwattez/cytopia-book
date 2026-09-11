@@ -1,4 +1,3 @@
-
 # Preface {.unnumbered}
 
 Cytopia is a series of conference cycles held at the Cité internationale universitaire in Paris. Each cycle brings together abstracts, articles, and presentations centered on a shared theme, while creating an interdisciplinary space that combines reflection, debate, and knowledge production.
@@ -11,6 +10,6 @@ The format of Cytopia conferences lies at the intersection of the dynamics of an
 
 This hybrid approach allows for the introduction of innovative tools that differ from traditional conference models. Each of the formats described above is indexed so that they can be accessed by conversational agents (powered by artificial intelligence). Each text presented in this book includes a *QR code* that allows readers to initiate a conversation with the text to better understand it and access certain nuances discussed in previous presentations and discussions.
 
-*Cytopia*, *Diplocité*, and *Gene & Tonic*^[Here, and throughout the book, we follow the alphabetical order of group or cycle names to establish the sequence in which they appear in this volume.] hope you enjoy reading and discussing this format, inspired by the first conference proceedings presented at the CiuP.
+*Cytopia*, *DiploCité*, and *Gene & Tonic*^[Here, and throughout the book, we follow the alphabetical order of group or cycle names to establish the sequence in which they appear in this volume.] hope you enjoy reading and discussing this format, inspired by the first conference proceedings presented at the CiuP.
 
 > *Hugues Wattez*
