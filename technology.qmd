@@ -1,5 +1,53 @@
 
 
-# CYCLE TECHNOLOGY, *proposed by Cytopia*
+# CYCLE TECHNOLOGY *by Cytopia*
 
-In summary, this book has no content whatsoever.
+## Editorial
+
+> *Imagining and describing more human and responsible uses of contemporary technologies*
+
+As an extension of the overall Cytopia framework, its cycle—which focuses on *technology*—creates an interdisciplinary space for reflection, debate, and the production of knowledge regarding the contemporary use of technologies (particularly artificial intelligence): their benefits, their risks, and the more human and responsible approaches that could be considered.
+
+The cycle is structured around three complementary conferences, each exploring one domain and its interactions with contemporary technologies (@fig-timeline-tech).
+
+```{mermaid}
+%%| fig-width: 4.5
+%%| label: fig-timeline-tech
+%%| fig-cap: Timeline of the cycle about techonology
+---
+config:
+  theme: 'neutral'
+---
+timeline
+  14 April 2026 → 12 May 2026     : Conference I
+                  : Understanding Today's Technologies
+  13 May 2026 → 9 June 2026       : Conference II
+                  : Living With Technologies - Society, Health, Environment
+  10 June 2026 → 30 June 2026     : Conference III
+                  : Creating and Thinking in the Technological Age
+```
+
+### First Conference: Understanding Today's Technologies
+
+> `Chairman`: *Jeanne Lechevallier (@sec-jeanne_lechevallier)*
+
+The first conference focuses on understanding the technologies themselves and their foundations. During this conference, we explore the numerical sovereignty (Article -@sec-sovereignty); re-identification of anonymized data (Article -@sec-reidentification); critical mindset face to these contemporary AIs (Article -@sec-sudoku); AI safety (Article -@sec-ai-safety).
+
+### Second Conference: Living With Technologies -- Society, Health, Environment
+
+> `Chairman`: *Berivan Biral (@sec-berivan_biral)*
+
+This second conference examines the impact of contemporary technologies on social practices, educational dynamics, health systems, and environmental balances through the many supports. The articles are focusing on the PhD student environment in health (@sec-theo-autobio); global environment challenges (@sec-environement-madimba); a focus on coastal retreat forecasting (@sec-lili-coast).
+
+### Last Conference: Creating and Thinking in the Technological Age
+
+> `Chairman`: *Andreas Kolb (@sec-andreas_kolb)*
+
+This third and last conference examines the influence of contemporary technologies on artistic creation, imaginaries, and the philosophical frameworks that accompany them. It debates the notions of authorship, meaning, aesthetics, and responsibility, in order to formulate more human creative and critical practices. The articles are focusing on two fields where the creativity is the essence --museology (Article -@sec-museology) and cinema (Article -@sec-cinema), and a final one talking about philosophy and ethic (Article -@#sec-philo).
+
+## Program Committee
+
+- Berivan Biral (@sec-berivan_biral)
+- Andreas Kolb (@sec-andreas_kolb)
+- Jeanne Lechevallier (@sec-jeanne_lechevallier)
+- Hugues Wattez (@sec-hugues_wattez)
