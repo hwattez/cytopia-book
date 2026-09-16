@@ -1,9 +1,20 @@
-# CYCLE DIPLOMATY *by Diplocité*
+# CYCLE DIPLOMATY *by DiploCité*
 
 ## Editorial
 
-TBA
+Founded in 2023 at the *Cité internationale universitaire de Paris*^[More about CiuP: [https://www.ciup.fr](https://www.ciup.fr)], *DiploCité*^[More about DiploCité: [https://linktr.ee/diplocite](https://linktr.ee/diplocite)] is an initiative and editorial platform dedicated to international relations, diplomacy, and global affairs.
+
+Our community brings together students and alumni of the Cité internationale universitaire de Paris, members of DiploCité, and experts of all nationalities and disciplines who share a passion for understanding the world. We also welcome invited contributors: researchers, practitioners, and voices from the field who enrich our pages with first-hand experience and diverse perspectives.
+
+We publish rigorous yet accessible analyses on diplomacy, geopolitics, multilateralism, and cultural relations, guided by a commitment to intellectual diversity and editorial independence.
+
+_All contributions reflect the views of their authors alone and do not engage the responsibility of DiploCité or the Cité internationale universitaire de Paris._
 
 ## Program Committee
 
-TBA
+- Ana Paula Segura
+- Carolina Diaz
+- Jana Forster
+- Thomas Taboada
+- Marie TBA
+- Giuliana TBA

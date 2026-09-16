@@ -14,8 +14,10 @@ book:
         - _sub/cytopia/cycles/2026/bio/conferences/bio-1/topics/immune_tolerance/_article_lang/en.qmd
         - _sub/cytopia/cycles/2026/bio/conferences/bio-1/topics/microbiome/_article_lang/en.qmd
     - part: diplocite.qmd
-      # chapters: 
-      #   - example_3.qmd
+      chapters: 
+        - _sub/cytopia/cycles/2026/diplo/conferences/diplo-1/topics/ilo/_article_lang/en.qmd
+        - _sub/cytopia/cycles/2026/diplo/conferences/diplo-1/topics/complex_global_landscape/_article_lang/en.qmd
+        - _sub/cytopia/cycles/2026/diplo/conferences/diplo-1/topics/tierra_and_territorio/_article_lang/en.qmd
     - part: technology.qmd
       chapters: 
         - _sub/cytopia/cycles/2026/tech/conferences/tech_1/topics/user_sovereignty/_article_lang/en.qmd
@@ -40,6 +42,7 @@ format:
       - cosmo
       - brand
   pdf:
+    fig-pos: '!htb'
     title-block-style: none
     documentclass: scrbook
     classoption: ["titlepage=false"]

@@ -1,4 +1,4 @@
-# CYCLE TECHNOLOGY** **by Cytopia
+# CYCLE TECHNOLOGY *by Cytopia*
 
 ## Editorial
 
@@ -29,19 +29,19 @@ timeline
 
 > `Chairman`: *Jeanne Lechevallier (@sec-jeanne_lechevallier)*
 
-The first conference focuses on understanding the technologies themselves and their foundations. During this conference, we explore numerical sovereignty (Article -@sec-sovereignty); re-identification of anonymized data (Article -@sec-reidentification); a critical mindset toward these contemporary AIs (Article -@sec-sudoku); AI safety (Article -@sec-ai-safety).
+The first conference focuses on understanding the technologies themselves and their foundations. During this conference, we explore numerical sovereignty (Article -@sec-sovereignty); re-identification of anonymized data (Article -@sec-reidentification); a critical mindset toward these contemporary AIs (Article -@sec-article-sudoku); AI safety (Article -@sec-ai-safety).
 
-**### Second Conference: Living With Technologies -- Society, Health, Environment**
+### Second Conference: Living With Technologies -- Society, Health, Environment
 
 > `Chairman`: **Berivan Biral (@sec-berivan_biral)**
 
-This second conference examines the impact of contemporary technologies on social practices, educational dynamics, health systems, and environmental balances through the many supports. The articles focus on the PhD student environment in health (@sec-theo-autobio); global environmental challenges (@sec-environement-madimba); a focus on coastal retreat forecasting (@sec-lili-coast).
+This second conference examines the impact of contemporary technologies on social practices, educational dynamics, health systems, and environmental balances through the many supports. The articles focus on the PhD student environment in health (Article -@sec-theo-autobio); global environmental challenges (Article -@sec-environement-madimba); a focus on coastal retreat forecasting (Article -@sec-lili-coast).
 
-**### Last Conference: Creating and Thinking in the Technological Age**
+### Last Conference: Creating and Thinking in the Technological Age
 
 > `Chairman`: **Andreas Kolb (@sec-andreas_kolb)**
 
-This third and last conference examines the influence of contemporary technologies on artistic creation, imaginaries, and the philosophical frameworks that accompany them. It debates the notions of authorship, meaning, aesthetics, and responsibility, in order to formulate more human creative and critical practices. The articles focus on two fields where creativity is the essence—museology (Article -@sec-museology) and cinema (Article -@sec-cinema)—and a final one talking about philosophy and ethics (Article -@#sec-philo).
+This third and last conference examines the influence of contemporary technologies on artistic creation, imaginaries, and the philosophical frameworks that accompany them. It debates the notions of authorship, meaning, aesthetics, and responsibility, in order to formulate more human creative and critical practices. The articles focus on two fields where creativity is the essence—museology (Article -@sec-museology) and cinema (Article -@sec-cinema)—and a final one talking about philosophy and ethics (Article -@sec-philo).
 
 ## Program Committee
 
