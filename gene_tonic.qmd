@@ -1,9 +1,11 @@
 # CYCLE BIOLOGY *by Gene & Tonic*
 
-## Editorial
+## Presentation
 
 TBA
 
 ## Program Committee
 
-TBA
+- Mohamed Yassir Laalej (@sec-mohamed_yassir_laalej)
+- Ronald Saraswat (@sec-ronald_saraswat)
+- Sofia Tagkalidou (@sec-sofia_tagkalidou)

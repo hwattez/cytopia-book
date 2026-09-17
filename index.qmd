@@ -1,4 +1,4 @@
-# Preface {.unnumbered}
+<!-- # General Presentation {.unnumbered}
 
 *Cytopia* is a series of conference cycles held at the *Cité internationale universitaire de Paris* (`CiuP`). Each cycle brings together abstracts, articles, and presentations centered on a shared theme, while creating an interdisciplinary space that combines reflection, debate, and knowledge production.
 
@@ -10,18 +10,23 @@ The format of *Cytopia* conferences lies at the intersection of the dynamics of 
 
 This hybrid approach allows for the introduction of innovative tools that differ from traditional conference models. Each of the formats described above is indexed so that they can be accessed by conversational agents (powered by artificial intelligence). Each text presented in this book includes a *QR code* that allows readers to initiate a conversation with the text to better understand it and access certain nuances discussed in previous presentations and interviews.
 
-*Cytopia*, *DiploCité*, and *Gene & Tonic*^[Here, and throughout the book, we follow the alphabetical order of group or cycle names to establish the sequence in which they appear in this volume.] hope you enjoy reading and discussing this format, inspired by the first *Cytopia* conference proceedings presented at the `CiuP`.
+*Cytopia*, *DiploCité*, and *Gene & Tonic*^[Here, and throughout the book, we follow the timeline or the alphabetical order of group/cycle names to establish the sequence in which they appear in this volume.] hope you enjoy reading and discussing this format, inspired by the first *Cytopia* conference proceedings presented at the `CiuP`.
 
-> *Hugues Wattez*
+> *Hugues Wattez* -->
 
-# Acronyms and Notations
+# Acronyms and Notations {.unnumbered}
 
-| Symbol | Signification |
-|:---:|-----------|
-| \faQrcode | A Qrcode permits an online and enhanced interaction with the support |
-| \faMessage | Discussion with an ai agent about the article |
-| \faMicrophoneLines | Agent knowledges are extended with the author interview |
-| \faPlay | Agent knowledges are extended with the author conference |
-| \faCircleUser | Access to the author information |
-| `CiuP` | Cité internationale universitaire de Paris |
-| `FIR` | Fonds des initiatives résidentes |
+\renewcommand{\arraystretch}{1.5}
+
+|                                        |                                                                        |
+| -------------------------------------: | ---------------------------------------------------------------------- |
+|          \makebox[1.3em][c]{\faQrcode} | A QR code enables online and enhanced interaction with the publication |
+|         \makebox[1.3em][c]{\faMessage} | Discuss the article with an AI agent                                   |
+| \makebox[1.3em][c]{\faMicrophoneLines} | The agent's knowledge is enriched by an interview with the author      |
+|            \makebox[1.3em][c]{\faPlay} | The agent's knowledge is enriched by the author's conference           |
+|      \makebox[1.3em][c]{\faCircleUser} | Access information about the author                                    |
+|                                        |                                                                        |
+|                                 `CiuP` | Cité internationale universitaire de Paris                             |
+|                                  `FIR` | Fonds des initiatives résidentes                                       |
+
+: {tbl-colwidths="[15,85]"}
