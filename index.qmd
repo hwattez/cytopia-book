@@ -1,15 +1,27 @@
 # Preface {.unnumbered}
 
-Cytopia is a series of conference cycles held at the Cité internationale universitaire in Paris. Each cycle brings together abstracts, articles, and presentations centered on a shared theme, while creating an interdisciplinary space that combines reflection, debate, and knowledge production.
+*Cytopia* is a series of conference cycles held at the *Cité internationale universitaire de Paris* (`CiuP`). Each cycle brings together abstracts, articles, and presentations centered on a shared theme, while creating an interdisciplinary space that combines reflection, debate, and knowledge production.
 
-What began as a single series focusing on emerging technologies—particularly artificial intelligence (proposed by *Cytopia*)—has been expanded to include two other major themes: diplomacy and biology, proposed by two other CiuP associations: *DiploCité* and *Gene & Tonic*.
+What began as a single series focusing on emerging *technologies* has been expanded to include two other major themes: *diplomacy* and *biology*, proposed by two other `CiuP` associations: *DiploCité* and *Gene & Tonic*.
 
-For this first edition of the Cytopia multi-cycle conferences, we are pleased to feature these three themes, which offer rich content—not only through the live presentations they inspired but also through the editorial content presented in this volume, which compiles the conference proceedings. Looking ahead, Cytopia could expand to include as many series as there are themes within a campus as culturally, artistically, and academically rich as the CiuP.
+For this first edition of the *Cytopia* multi-cycle conferences, we are pleased to feature these three themes, which offer rich content—not only through the live presentations they inspired but also through the editorial content presented in this volume, which compiles the conference proceedings. Looking ahead, *Cytopia* could expand to include as many series as there are themes within a campus as culturally, artistically, and academically rich as the `CiuP`.
 
-The format of Cytopia conferences lies at the intersection of the dynamics of an open, international campus and a conference workshop where ideas and knowledge are shared in various formats: discussions, abstracts, articles, and presentations.
+The format of *Cytopia* conferences lies at the intersection of the dynamics of an open and international campus, a conference/workshop where ideas and knowledge are shared in various formats: discussions, abstracts, articles, and presentations.
 
-This hybrid approach allows for the introduction of innovative tools that differ from traditional conference models. Each of the formats described above is indexed so that they can be accessed by conversational agents (powered by artificial intelligence). Each text presented in this book includes a *QR code* that allows readers to initiate a conversation with the text to better understand it and access certain nuances discussed in previous presentations and discussions.
+This hybrid approach allows for the introduction of innovative tools that differ from traditional conference models. Each of the formats described above is indexed so that they can be accessed by conversational agents (powered by artificial intelligence). Each text presented in this book includes a *QR code* that allows readers to initiate a conversation with the text to better understand it and access certain nuances discussed in previous presentations and interviews.
 
-*Cytopia*, *DiploCité*, and *Gene & Tonic*^[Here, and throughout the book, we follow the alphabetical order of group or cycle names to establish the sequence in which they appear in this volume.] hope you enjoy reading and discussing this format, inspired by the first conference proceedings presented at the CiuP.
+*Cytopia*, *DiploCité*, and *Gene & Tonic*^[Here, and throughout the book, we follow the alphabetical order of group or cycle names to establish the sequence in which they appear in this volume.] hope you enjoy reading and discussing this format, inspired by the first *Cytopia* conference proceedings presented at the `CiuP`.
 
 > *Hugues Wattez*
+
+# Acronyms and Notations
+
+| Symbol | Signification |
+|:---:|-----------|
+| \faQrcode | A Qrcode permits an online and enhanced interaction with the support |
+| \faMessage | Discussion with an ai agent about the article |
+| \faMicrophoneLines | Agent knowledges are extended with the author interview |
+| \faPlay | Agent knowledges are extended with the author conference |
+| \faCircleUser | Access to the author information |
+| `CiuP` | Cité internationale universitaire de Paris |
+| `FIR` | Fonds des initiatives résidentes |

@@ -15,9 +15,9 @@ book:
         - _sub/cytopia/cycles/2026/bio/conferences/bio-1/topics/microbiome/_article_lang/en.qmd
     - part: diplocite.qmd
       chapters: 
+        - _sub/cytopia/cycles/2026/diplo/conferences/diplo-1/topics/tierra_and_territorio/_article_lang/en.qmd
         - _sub/cytopia/cycles/2026/diplo/conferences/diplo-1/topics/ilo/_article_lang/en.qmd
         - _sub/cytopia/cycles/2026/diplo/conferences/diplo-1/topics/complex_global_landscape/_article_lang/en.qmd
-        - _sub/cytopia/cycles/2026/diplo/conferences/diplo-1/topics/tierra_and_territorio/_article_lang/en.qmd
     - part: technology.qmd
       chapters: 
         - _sub/cytopia/cycles/2026/tech/conferences/tech_1/topics/user_sovereignty/_article_lang/en.qmd
@@ -50,8 +50,10 @@ format:
     toc-depth: 1
     include-in-header:
       text: |
+        \usepackage{fontawesome6}
         \usepackage{qrcode}
         \usepackage{pdfpages}
+        \usepackage{tikz}
     include-after-body: fig/after-body.tex
     template-partials:
       - fig/before-body.tex
