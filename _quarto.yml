@@ -36,6 +36,9 @@ book:
 
 bibliography: _sub/cytopia/bib/ref.bib
 
+execute:
+  freeze: auto
+
 format:
   html:
     theme:
@@ -47,17 +50,46 @@ format:
     documentclass: scrbook
     classoption: ["titlepage=false"]
     papersize: a5
+    toc: true
     toc-depth: 1
     include-in-header:
       text: |
         \usepackage{fontawesome6}
         \usepackage{qrcode}
         \usepackage{pdfpages}
-        \usepackage{tikz}
+
+        \renewcommand{\labelitemi}{--}
+
+        \newcommand{\marginqrcode}[2]{%
+          \setlength{\marginparwidth}{15mm}%
+          \setlength{\marginparsep}{0mm}%
+          \marginpar{%
+              \centering
+              \raisebox{#1}{%
+                  \begin{minipage}{12mm}
+                      \centering
+                      \qrcode[level=L,height=12mm]{#2}
+
+                      \vspace{0.1cm}
+                      \tiny
+                      \faMessage \;
+                      \faMicrophoneLines \;
+                      \faPlay
+                  \end{minipage}%
+              }%
+          }%
+        }
     include-after-body: fig/after-body.tex
     template-partials:
       - fig/before-body.tex
       - fig/title.tex
+    geometry:
+      - inner=15mm
+      - outer=15mm
+      - top=15mm
+      - bottom=25mm
+      - bindingoffset=0mm
+
 
 language:
   section-title-chapters: "Module"

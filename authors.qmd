@@ -114,7 +114,7 @@ def format_author(author_slug, metadata):
     output.append("")
     output.append(f"## {title} {{#sec-{author_slug}}}")
     output.append("")
-    output.append(f"\\qrcode[height=2cm]{{https://www.cytopia.fr/about/{author_slug}}}")
+    output.append(f"\\marginqrcode{{0mm}}{{https://cytopia.fr/about/{author_slug}}}")
     output.append("")
 
     if affiliation:
