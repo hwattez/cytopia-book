@@ -10,26 +10,26 @@ book:
     - index.qmd
     - part: gene_tonic.qmd
       chapters: 
-        - _sub/cytopia/cycles/2026/bio/conferences/bio-1/topics/learning_gliding_mammals/_article_lang/en.qmd
-        - _sub/cytopia/cycles/2026/bio/conferences/bio-1/topics/immune_tolerance/_article_lang/en.qmd
-        - _sub/cytopia/cycles/2026/bio/conferences/bio-1/topics/microbiome/_article_lang/en.qmd
+        - _sub/cytopia/cycles/2026/bio/conferences/bio-1/topics/learning_gliding_mammals/index.qmd
+        - _sub/cytopia/cycles/2026/bio/conferences/bio-1/topics/immune_tolerance/index.qmd
+        - _sub/cytopia/cycles/2026/bio/conferences/bio-1/topics/microbiome/index.qmd
     - part: diplocite.qmd
       chapters: 
-        - _sub/cytopia/cycles/2026/diplo/conferences/diplo-1/topics/tierra_and_territorio/_article_lang/en.qmd
-        - _sub/cytopia/cycles/2026/diplo/conferences/diplo-1/topics/ilo/_article_lang/en.qmd
-        - _sub/cytopia/cycles/2026/diplo/conferences/diplo-1/topics/complex_global_landscape/_article_lang/en.qmd
+        - _sub/cytopia/cycles/2026/diplo/conferences/diplo-1/topics/tierra_and_territorio/index.qmd
+        - _sub/cytopia/cycles/2026/diplo/conferences/diplo-1/topics/ilo/index.qmd
+        - _sub/cytopia/cycles/2026/diplo/conferences/diplo-1/topics/complex_global_landscape/index.qmd
     - part: technology.qmd
       chapters: 
-        - _sub/cytopia/cycles/2026/tech/conferences/tech_1/topics/user_sovereignty/_article_lang/en.qmd
-        - _sub/cytopia/cycles/2026/tech/conferences/tech_1/topics/re-identification/_article_lang/en.qmd
-        - _sub/cytopia/cycles/2026/tech/conferences/tech_1/topics/sudoku_kills_modern_ai/_article_lang/en.qmd
-        - _sub/cytopia/cycles/2026/tech/conferences/tech_1/topics/ai_safety/_article_lang/en.qmd
-        - _sub/cytopia/cycles/2026/tech/conferences/tech_2/topics/autobiography/_article_lang/en.qmd
-        - _sub/cytopia/cycles/2026/tech/conferences/tech_2/topics/environment/_article_lang/en.qmd
-        - _sub/cytopia/cycles/2026/tech/conferences/tech_2/topics/ocean/_article_lang/en.qmd
-        - _sub/cytopia/cycles/2026/tech/conferences/tech_3/topics/museology/_article_lang/en.qmd
-        - _sub/cytopia/cycles/2026/tech/conferences/tech_3/topics/cinema/_article_lang/en.qmd
-        - _sub/cytopia/cycles/2026/tech/conferences/tech_3/topics/philosophy/_article_lang/en.qmd
+        - _sub/cytopia/cycles/2026/tech/conferences/tech_1/topics/user_sovereignty/index.qmd
+        - _sub/cytopia/cycles/2026/tech/conferences/tech_1/topics/re-identification/index.qmd
+        - _sub/cytopia/cycles/2026/tech/conferences/tech_1/topics/sudoku_kills_modern_ai/index.qmd
+        - _sub/cytopia/cycles/2026/tech/conferences/tech_1/topics/ai_safety/index.qmd
+        - _sub/cytopia/cycles/2026/tech/conferences/tech_2/topics/autobiography/index.qmd
+        - _sub/cytopia/cycles/2026/tech/conferences/tech_2/topics/environment/index.qmd
+        - _sub/cytopia/cycles/2026/tech/conferences/tech_2/topics/ocean/index.qmd
+        - _sub/cytopia/cycles/2026/tech/conferences/tech_3/topics/museology/index.qmd
+        - _sub/cytopia/cycles/2026/tech/conferences/tech_3/topics/cinema/index.qmd
+        - _sub/cytopia/cycles/2026/tech/conferences/tech_3/topics/philosophy/index.qmd
     - references.qmd
   appendices:
     - authors.qmd
@@ -60,7 +60,7 @@ format:
 
         \renewcommand{\labelitemi}{--}
 
-        \newcommand{\marginqrcode}[2]{%
+        \newcommand{\marginqrcode}[3]{%
           \setlength{\marginparwidth}{15mm}%
           \setlength{\marginparsep}{0mm}%
           \marginpar{%
@@ -72,13 +72,13 @@ format:
 
                       \vspace{0.1cm}
                       \tiny
-                      \faMessage \;
-                      \faMicrophoneLines \;
-                      \faPlay
+                      #3
                   \end{minipage}%
               }%
           }%
         }
+
+        \newcommand{\marginqrcodeprofile}[1]{\marginqrcode{0mm}{#1}{\faUser}}
     include-after-body: fig/after-body.tex
     template-partials:
       - fig/before-body.tex

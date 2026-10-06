@@ -29,19 +29,19 @@ timeline
 
 > `Chairman`: *Jeanne Lechevallier (@sec-jeanne_lechevallier)*
 
-The first conference focuses on understanding the technologies themselves and their foundations. During this conference, we explore numerical sovereignty (Article -@sec-sovereignty); re-identification of anonymized data (Article -@sec-reidentification); a critical mindset toward these contemporary AIs (Article -@sec-article-sudoku); AI safety (Article -@sec-ai-safety).
+The first conference focuses on understanding the technologies themselves and their foundations. During this conference, we explore numerical sovereignty (Article \ref{numerical-sovereignty-cytopias-case}); re-identification of anonymized data (Article \ref{data-re-identification-in-the-age-of-ai}); a critical mindset toward these contemporary AIs (Article \ref{modern-ai-cannot-solve-sudoku-lets-stay-critical}); AI safety (Article \ref{modern-ai-cannot-solve-sudoku-lets-stay-critical}).
 
 ### Second Conference: Living With Technologies -- Society, Health, Environment
 
 > `Chairman`: **Berivan Biral (@sec-berivan_biral)**
 
-This second conference examines the impact of contemporary technologies on social practices, educational dynamics, health systems, and environmental balances through the many supports. The articles focus on the PhD student environment in health (Article -@sec-theo-autobio); global environmental challenges (Article -@sec-environement-madimba); a focus on coastal retreat forecasting (Article -@sec-lili-coast).
+This second conference examines the impact of contemporary technologies on social practices, educational dynamics, health systems, and environmental balances through the many supports. The articles focus on the PhD student environment in health (Article \ref{autobiography-of-ai-agents-in-a-phd-students-research-ecosystem}); global environmental challenges (Article \ref{ai-and-the-environment-when-the-other-side-undermines-the-benefits}); a focus on coastal retreat forecasting (Article \ref{communicating-uncertainty-in-coastal-retreat-forecasting}).
 
 ### Last Conference: Creating and Thinking in the Technological Age
 
 > `Chairman`: **Andreas Kolb (@sec-andreas_kolb)**
 
-This third and last conference examines the influence of contemporary technologies on artistic creation, imaginaries, and the philosophical frameworks that accompany them. It debates the notions of authorship, meaning, aesthetics, and responsibility, in order to formulate more human creative and critical practices. The articles focus on two fields where creativity is the essence—museology (Article -@sec-museology) and cinema (Article -@sec-cinema)—and a final one talking about philosophy and ethics (Article -@sec-philo).
+This third and last conference examines the influence of contemporary technologies on artistic creation, imaginaries, and the philosophical frameworks that accompany them. It debates the notions of authorship, meaning, aesthetics, and responsibility, in order to formulate more human creative and critical practices. The articles focus on two fields where creativity is the essence—museology (Article \ref{artificial-intelligence-in-museums-opportunities-challenges-and-new-perspectives}) and cinema (Article \ref{cinematic-rebellions-ai-and-the-new-auteur})—and a final one talking about philosophy and ethics (Article \ref{the-face-put-to-the-test-by-artificial-intelligence-between-presence-and-false-appearance}).
 
 ## Program Committee
 
