@@ -2,10 +2,14 @@
 
 ## Presentation
 
-TBA
+*Gene & Tonic Cité* is a resident-led Life Sciences and Medicine initiative founded at the Cité internationale universitaire de Paris (CIUP) to create an informal, interdisciplinary space for scientific exchange. Co-founded by Ronald Saraswat and Sofia Tagkalidou, with Slimane Koubaich as part of the organising team, the initiative brings together researchers, students, healthcare professionals and science enthusiasts from diverse academic and cultural backgrounds.
+
+Throughout its first year, Gene & Tonic developed a series of thematic chapters combining scientific presentations, interactive discussions, debates, networking and community activities. Topics ranged from immune tolerance and regulatory T cells to brain organoids, biological rhythms, human space exploration, science history and natural sciences. Beyond formal presentations, the initiative aimed to make specialised research accessible while encouraging dialogue across disciplines and creating opportunities for participants to connect beyond their immediate fields.
+
+This section of the CYTOPIA Proceedings extends that objective into a publication format. It brings together contributions from members and presenters associated with the Gene & Tonic community, providing a space to document, valorise and share the scientific ideas discussed through the initiative. The collaboration with CYTOPIA reflects a shared commitment to interdisciplinary exchange, scientific communication and the broader dissemination of research within the international CIUP community.
 
 ## Program Committee
 
-- Mohamed Yassir Laalej (@sec-mohamed_yassir_laalej)
+- Slimane Koubaich
 - Ronald Saraswat (@sec-ronald_saraswat)
 - Sofia Tagkalidou (@sec-sofia_tagkalidou)
