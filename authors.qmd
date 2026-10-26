@@ -111,6 +111,10 @@ def format_author(author_slug, metadata):
 
     output = []
 
+    if title == "Sofia Tagkalidou":
+        output.append("")
+        output.append("\\pagebreak")
+
     output.append("")
     output.append(f"## {title} {{#sec-{author_slug}}}")
     output.append("")
