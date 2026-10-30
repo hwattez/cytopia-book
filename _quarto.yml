@@ -45,6 +45,7 @@ format:
       - cosmo
       - brand
   pdf:
+    latex-auto-install: true
     fig-pos: '!htb'
     title-block-style: none
     documentclass: scrbook
@@ -57,6 +58,8 @@ format:
         \usepackage{fontawesome6}
         \usepackage{qrcode}
         \usepackage{pdfpages}
+        \usepackage{barracuda}
+        \usepackage{tikz}
 
         \renewcommand{\labelitemi}{--}
 

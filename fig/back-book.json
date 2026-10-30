@@ -1,0 +1,33 @@
+{
+  "brand": "#187a58",
+  "title": "1st conference cycles of Cytopia",
+  "infos": [
+    {
+      "icon": "none",
+      "label": "Year",
+      "value": "2025-2026"
+    },
+    {
+      "icon": "none",
+      "label": "Place",
+      "value": "CiuP, 75014 Paris, France"
+    },
+    {
+      "icon": "none",
+      "label": "Tags",
+      "value": "biology, diplomacy, technology"
+    }
+  ],
+  "photo": "https://www.cytopia.fr/cycles/2026/tech/conferences/tech_2/pictures/WhatsApp%20Image%202026-06-11%20at%2002.03.20.jpeg",
+  "photoFocus": 44,
+  "abstractLabel": "Abstract",
+  "abstract": "Cytopia is a program of thematic cycles of conferences organized at the Cité internationale universitaire de Paris. Each cycle gathers several conferences around a shared theme and creates an interdisciplinary space for reflection, debate, and knowledge production.\n\nThe project is not only a hosting platform for innovative conferences: it is also an experiment in new conference program formats. Discussions, articles, conferences, the final book, and the website are designed as media enhanced by the use of artificial intelligence, making it possible to navigate and query the content in a more interactive way.\n\nThe format sits at the intersection of an open and experimental campus dynamic and the standards of national and international academic conferences. This intermediate position makes it possible to introduce original tools and presentation formats that depart from more conventional conference models.",
+  "image": "img/mi.jpg",
+  "imageFocus": 25,
+  "overlay": 0.6,
+  "blur": 0,
+  "partners": [],
+  "isbn": "979-10-990960-0-5",
+  "barcodeColor": "#ffffff",
+  "barcodeBackground": "rgba(255, 255, 255, 0)"
+}

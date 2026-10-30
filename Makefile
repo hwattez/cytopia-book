@@ -16,3 +16,13 @@ release_with_contracts:
 		--title "Version 0.9.2" \
 		--notes "Release with signed contracts" \
 		--prerelease
+
+book_cover:
+	bunx --yes --location=global -p @remotion/cli@4.0.539 remotion still \
+		'https://openeugenia.github.io/Graphic-charter/studio' 'BookCover' 'fig/cover-book.png' \
+		--scale='2' --props=fig/cover-book.json
+
+book_back:
+	bunx --yes --location=global -p @remotion/cli@4.0.539 remotion still \
+		'https://openeugenia.github.io/Graphic-charter/studio' 'BookBackCover' 'fig/back-book.png' \
+		--scale='2' --props=fig/back-book.json

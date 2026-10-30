@@ -1,0 +1,42 @@
+{
+  "brand": "#187a58",
+  "edition": "2025·2026 edition",
+  "intro": "Conference cycles organized by residents of the Cité internationale universitaire de Paris",
+  "eyebrow": "Proceedings of",
+  "title": "The 1st conference cycles of Cytopia",
+  "image": "img/mi.jpg",
+  "imageFocus": 76,
+  "overlay": 0.6,
+  "logo": {
+    "variant": "full",
+    "initials": "Cy",
+    "exponent": "",
+    "label": "CYTOPIA",
+    "size": 204,
+    "vector": true,
+    "vignette": true,
+    "tint": true
+  },
+  "partners": [
+    {
+      "src": "img/fir.png",
+      "radius": 0,
+      "filter": "none"
+    },
+    {
+      "src": "img/diplo.jpg",
+      "radius": 0,
+      "filter": "remove-light"
+    },
+    {
+      "src": "img/gt2.png",
+      "radius": 0,
+      "filter": "remove-dark"
+    },
+    {
+      "src": "img/oe8.png",
+      "radius": 0,
+      "filter": "grayscale"
+    }
+  ]
+}
