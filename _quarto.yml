@@ -58,8 +58,6 @@ format:
         \usepackage{fontawesome6}
         \usepackage{qrcode}
         \usepackage{pdfpages}
-        \usepackage{barracuda}
-        \usepackage{tikz}
 
         \renewcommand{\labelitemi}{--}
 
