@@ -1,10 +1,12 @@
-# Cycle Technology *-- Cytopia*
+# Cycle Technology *-- openEugenia*
 
 ## Presentation
 
 > *Imagining and describing more human and responsible uses of contemporary technologies*
 
-As an extension of the overall Cytopia framework, its cycle—which focuses on *technology*—creates an interdisciplinary space for reflection, debate, and the production of knowledge regarding the contemporary use of technologies (particularly artificial intelligence): their benefits, their risks, and the more human and responsible approaches that could be considered.
+As an extension of the overall Cytopia framework, its technological cycle creates an interdisciplinary space for reflection, debate, and the production of knowledge regarding the contemporary use of technologies (particularly artificial intelligence): their benefits, their risks, and the more human and responsible approaches that could be considered.
+
+Following the discussions and work carried out during this cycle by the four founding members of *Cytopia* and this cycle, the *openEugenia* association was created with the goal of advocating for and promoting an ethical approach to the use of AI and digital technology. 
 
 The cycle is structured around three complementary conferences, each exploring one domain and its interactions with contemporary technologies (@fig-timeline-tech).
 
@@ -14,7 +16,7 @@ The cycle is structured around three complementary conferences, each exploring o
 %%| fig-cap: Timeline of the cycle about technology
 ---
 config:
-theme: 'neutral'
+  theme: 'neutral'
 ---
 timeline
 14 April 2026 → 12 May 2026     : Conference I
@@ -29,13 +31,13 @@ timeline
 
 > `Chairman`: *Jeanne Lechevallier (@sec-jeanne_lechevallier)*
 
-The first conference focuses on understanding the technologies themselves and their foundations. During this conference, we explore numerical sovereignty (Article \ref{numerical-sovereignty-cytopias-case}); re-identification of anonymized data (Article \ref{data-re-identification-in-the-age-of-ai}); a critical mindset toward these contemporary AIs (Article \ref{modern-ai-cannot-solve-sudoku-lets-stay-critical}); AI safety (Article \ref{modern-ai-cannot-solve-sudoku-lets-stay-critical}).
+The first conference focuses on understanding the technologies themselves and their foundations. During this conference, we explore numerical sovereignty (Article \ref{numerical-sovereignty-cytopias-case}); re-identification of anonymized data (Article \ref{data-re-identification-in-the-age-of-ai}); a critical mindset toward these contemporary AIs (Article \ref{modern-ai-cannot-solve-sudoku-lets-stay-critical}); AI safety (Article \ref{gambling-with-human-extinction-four-arguments-to-understand-ai-safety}).
 
 ### Second Conference: Living With Technologies -- Society, Health, Environment
 
 > `Chairman`: **Berivan Biral (@sec-berivan_biral)**
 
-This second conference examines the impact of contemporary technologies on social practices, educational dynamics, health systems, and environmental balances through the many supports. The articles focus on the PhD student environment in health (Article \ref{autobiography-of-ai-agents-in-a-phd-students-research-ecosystem}); global environmental challenges (Article \ref{ai-and-the-environment-when-the-other-side-undermines-the-benefits}); a focus on coastal retreat forecasting (Article \ref{communicating-uncertainty-in-coastal-retreat-forecasting}).
+This second conference examines the impact of contemporary technologies on social practices, educational dynamics, health systems, and environmental balances through the many supports. The articles focus on the PhD student environment in health (Article \ref{autobiography-of-ai-agents-in-a-phd-students-research-ecosystem}); global environmental challenges (Article \ref{ai-and-the-environment-when-the-flip-side-erodes-the-coin}); a focus on coastal retreat forecasting (Article \ref{communicating-uncertainty-in-coastal-retreat-forecasting}).
 
 ### Last Conference: Creating and Thinking in the Technological Age
 

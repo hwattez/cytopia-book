@@ -86,7 +86,7 @@ format:
       - fig/title.tex
     geometry:
       - inner=15mm
-      - outer=15mm
+      - outer=17.5mm
       - top=15mm
       - bottom=25mm
       - bindingoffset=0mm

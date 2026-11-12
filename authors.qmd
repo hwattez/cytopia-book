@@ -111,7 +111,7 @@ def format_author(author_slug, metadata):
 
     output = []
 
-    if title == "Sofia Tagkalidou":
+    if title == "Joseph Madimba":
         output.append("")
         output.append("\\pagebreak")
 
