@@ -7,3 +7,5 @@ _freeze
 _contracts
 fig/back-book.png
 fig/cover-book.png
+fig/covers.*
+.remotion

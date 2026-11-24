@@ -1,13 +1,29 @@
 
-\pagenumbering{roman}
-
 \includepdf[pages=1, scale=1, templatesize={\paperwidth}{\paperheight}, keepaspectratio=false]{fig/cover-book.png}
 
 \cleardoublepage
 
+\thispagestyle{empty}
+
+\AddToShipoutPictureFG*{%
+  \AtPageLowerLeft{%
+    \hspace{2cm}%
+    \raisebox{1.2cm}{%
+      \parbox{\dimexpr\paperwidth-4cm\relax}{%
+        \centering
+        \fontsize{7}{8}\selectfont
+        Cover photo: \textit{Maison internationale de la Cité internationale universitaire de Paris}
+        --- Patrick GIRAUD, CC BY 2.5, cropped, Wikimedia Commons.
+      }%
+    }%
+  }%
+}
+
 \null
 
 \cleardoublepage
+
+\pagenumbering{roman}
 
 \chapter*{Preface}\label{preface}
 % \addcontentsline{toc}{chapter}{Preface}

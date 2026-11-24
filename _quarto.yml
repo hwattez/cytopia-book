@@ -58,6 +58,7 @@ format:
         \usepackage{fontawesome6}
         \usepackage{qrcode}
         \usepackage{pdfpages}
+        \usepackage[cam, noinfo, width=162truemm, height=224truemm, center]{crop}
 
         \renewcommand{\labelitemi}{--}
 
